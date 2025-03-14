@@ -1,0 +1,24 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+simple-contracts/node_modules/
+simple-contracts/dist/
+simple-contracts/cache/
+simple-contracts/.env
+contract-ui/node_modules/
+contract-ui/dist/
+python-ui/__pycache__/
